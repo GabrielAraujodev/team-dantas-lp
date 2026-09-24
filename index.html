@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Dantas | Consultoria Esportiva & Alta Performance</title>
+  <!-- SEO & Canonical Link -->
+  <link rel="canonical" href="https://teamdantas.com.br/">
+  
+  <!-- OpenGraph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://teamdantas.com.br/">
+  <meta property="og:title" content="Team Dantas | Consultoria Esportiva & Alta Performance">
+  <meta property="og:description" content="Transforme seu corpo de verdade com treino, dieta e acompanhamento personalizado do Team Dantas. Aproveite 61% de desconto exclusivo.">
+  <meta property="og:image" content="https://teamdantas.com.br/assets/shield_3d.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Team Dantas | Consultoria Esportiva & Alta Performance">
+  <meta name="twitter:description" content="Transforme seu corpo de verdade com treino, dieta e acompanhamento personalizado do Team Dantas.">
+  <meta name="twitter:image" content="https://teamdantas.com.br/assets/shield_3d.png">
+
+  <!-- Fonts: Sora & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo-link" aria-label="Team Dantas Página Inicial">
+        <img src="assets/logo.svg" alt="Team Dantas Logo" class="brand-logo-img navbar-logo">
+      </a>
+      <a href="#plano-black" class="nav-btn" role="button">GARANTIR VAGA</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero" aria-label="Destaque Principal">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="brand-badge">
+          <img src="assets/logo.svg" alt="Team Dantas Logo" class="brand-logo-img hero-logo">
+        </div>
+        
+        <h1 class="hero-title">
+          Chegou a chance de acabar com a falta de resultados e transformar seu corpo de verdade.
+        </h1>
+        
+        <p class="hero-subtitle">
+          Treino, dieta e acompanhamento de perto com o Team Dantas, agora por um valor nunca visto.
+        </p>
+        
+        <div class="hero-cta-wrapper">
+          <a href="#plano-black" class="btn-primary pulse-glow" role="button" id="hero-cta-btn">
+            <span>QUERO ENTRAR AGORA</span>
+            <span aria-hidden="true">🔥</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="shield-glow-behind" aria-hidden="true"></div>
+        <img src="assets/shield_3d.png" alt="Escudo 3D metálico com texto Team Black em alto relevo e iluminação em néon azul" class="shield-3d" id="shield-img">
+      </div>
+    </div>
+
+    <!-- Bottom Marquee Banner -->
+    <div class="marquee-wrapper" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+          <span class="marquee-badge">TEAM BLACK</span> <span>61% DE DESCONTO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 1: PILARES -->
+  <section class="section pilares-section" id="pilares" aria-label="Pilares do Team Dantas">
+    <div class="container">
+      <div class="pilares-header">
+        <div class="pilares-title-wrapper">
+          <div class="accent-bar" aria-hidden="true"></div>
+          <div>
+            <h2 class="section-title">Aqui você não treina sozinho.</h2>
+            <p class="section-tagline">Você faz parte de um time que entrega resultado.</p>
+          </div>
+        </div>
+        <div class="pilares-desc">
+          Conheça os pilares que fazem o Team Dantas ser o time que mais transforma alunos no Brasil.
+        </div>
+      </div>
+
+      <div class="pilares-grid">
+        <div class="pilar-card">
+          <div class="card-accent-line" aria-hidden="true"></div>
+          <div class="card-header-flex">
+            <div class="pilar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3897F0" stroke-width="2.5"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg>
+            </div>
+            <h3 class="pilar-title">Treino Personalizado</h3>
+          </div>
+          <p class="pilar-text">
+            Planos criados sob medida para o seu nível e objetivo. Você não segue uma ficha genérica, você treina com estratégia e propósito.
+          </p>
+        </div>
+
+        <div class="pilar-card">
+          <div class="card-accent-line" aria-hidden="true"></div>
+          <div class="card-header-flex">
+            <div class="pilar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3897F0" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="pilar-title">Nutrição Estratégica</h3>
+          </div>
+          <p class="pilar-text">
+            Plano alimentar alinhado ao seu objetivo, fácil de seguir e sem dietas malucas. Combina rotina real com escolhas de verdade para acelerar seus resultados.
+          </p>
+        </div>
+
+        <div class="pilar-card">
+          <div class="card-accent-line" aria-hidden="true"></div>
+          <div class="card-header-flex">
+            <div class="pilar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3897F0" stroke-width="2.5"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="m9 14 2 2 4-4"/></svg>
+            </div>
+            <h3 class="pilar-title">Acompanhamento de Alta Precisão</h3>
+          </div>
+          <p class="pilar-text">
+            Monitoramento constante, otimizações semanais e relatórios mensais integrados ao ranking de constância para impulsionar sua evolução.
+          </p>
+        </div>
+
+        <div class="pilar-card">
+          <div class="card-accent-line" aria-hidden="true"></div>
+          <div class="card-header-flex">
+            <div class="pilar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3897F0" stroke-width="2.5"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <h3 class="pilar-title">Resultados Comprovados</h3>
+          </div>
+          <p class="pilar-text">
+            Cada treino, cada ajuste e cada acompanhamento são pensados para entregar evolução real. Aqui você transforma corpo e mente.
+          </p>
+        </div>
+
+        <div class="pilar-card">
+          <div class="card-accent-line" aria-hidden="true"></div>
+          <div class="card-header-flex">
+            <div class="pilar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3897F0" stroke-width="2.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="pilar-title">Comunidade Team Dantas</h3>
+          </div>
+          <p class="pilar-text">
+            Ninguém evolui sozinho. Dentro do Team Dantas, você faz parte de uma comunidade que vive o mesmo propósito que você: superar limites.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center margin-top-40">
+        <a href="#plano-black" class="btn-primary pulse-glow" role="button">
+          <span>GARANTIR MINHA VAGA AGORA</span>
+          <span aria-hidden="true">🔥</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: APP DEMO -->
+  <section class="section app-demo-section" id="app-demo" aria-label="Aplicativo Exclusivo">
+    <div class="watermark-bg" aria-hidden="true">APLICATIVO</div>
+    
+    <div class="container app-demo-container">
+      <div class="app-demo-content">
+        <h2 class="app-demo-title">
+          Tudo o que você precisa para evoluir, na palma da sua mão.
+        </h2>
+        <p class="app-demo-desc">
+          Com o App Team Dantas, você tem acesso a todos os recursos do time em um único lugar: simples, completo e feito para facilitar sua jornada.
+        </p>
+
+        <div class="app-demo-subtitle">O que o aplicativo oferece:</div>
+
+        <div class="pills-grid">
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Treino Personalizado</div>
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Plano Alimentar Digital</div>
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Histórico de Evolução</div>
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Agenda e Organização</div>
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Suporte Direto com o Time</div>
+          <div class="pill-badge"><span class="pill-dot" aria-hidden="true"></span> Conteúdos Exclusivos</div>
+        </div>
+      </div>
+
+      <div class="app-demo-visual">
+        <div class="app-glow" aria-hidden="true"></div>
+        <img src="assets/app_mockup.png" alt="Demonstração do aplicativo do Team Dantas em smartphones" class="app-mockup-dual" id="app-mockup">
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: FEEDBACK / PROVA SOCIAL & ANTES E DEPOIS -->
+  <section class="section feedback-section" id="feedback" aria-label="Depoimentos de Alunos">
+    <div class="container">
+      <div class="feedback-header-grid">
+        <div>
+          <span class="section-tag-small">FEEDBACK</span>
+          <h2 class="feedback-title">
+            Veja você mesmo o que nossos alunos estão dizendo sobre o Team Dantas:
+          </h2>
+          <div class="students-counter">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar-circle">👩‍🦰</span>
+              <span class="avatar-circle">🧔</span>
+              <span class="avatar-circle">👩</span>
+            </div>
+            <span>+ 50 alunos espalhados pelo Brasil todo.</span>
+          </div>
+        </div>
+
+        <!-- Testimonial Cards Carousel -->
+        <div class="testimonials-scroll">
+          <div class="testimonial-card">
+            <div class="testimonial-user">
+              <span class="user-avatar" aria-hidden="true">👩</span>
+              <span class="user-name">Deise Anne</span>
+            </div>
+            <p class="testimonial-text">"Esses alongamentos tem me ajudado muito a ter mais flexibilidade na horas dos exercícios 🙌"</p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-user">
+              <span class="user-avatar" aria-hidden="true">🧔</span>
+              <span class="user-name">André Pilloto</span>
+            </div>
+            <p class="testimonial-text">"Treino muito bom! Substituí a esteira por 20min de escada 🔥"</p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-user">
+              <span class="user-avatar" aria-hidden="true">👩‍🦱</span>
+              <span class="user-name">Yone de S...</span>
+            </div>
+            <p class="testimonial-text">"Treino hoje foi completo!"</p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Before and After Transformation Cards Gallery -->
+      <div class="transformations-gallery">
+        <div class="transform-card">
+          <img src="assets/transform_1.jpg" alt="Foto de evolução de aluno antes e depois do programa Team Dantas">
+        </div>
+        <div class="transform-card">
+          <img src="assets/transform_2.jpg" alt="Foto de progresso físico em espelho de aluna do Team Dantas">
+        </div>
+        <div class="transform-card">
+          <img src="assets/transform_3.jpg" alt="Evolução muscular e definição de aluno do Team Dantas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: PLANO BLACK EXCLUSIVA -->
+  <section class="section plano-black-section" id="plano-black" aria-label="Plano de Inscrição">
+    <div class="double-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span>61% DE DESCONTO • TEAM BLACK</span> <span>61% DE DESCONTO • TEAM BLACK</span>
+          <span>61% DE DESCONTO • TEAM BLACK</span> <span>61% DE DESCONTO • TEAM BLACK</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center relative-z2">
+      <div class="plano-black-card">
+        <span class="card-subtitle-small">Plano</span>
+        <h2 class="card-black-title">BLACK EXCLUSIVA</h2>
+
+        <div class="checklist">
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Treino 100% Personalizado</div>
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Plano Alimentar Estratégico</div>
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Chat Direto com o Coach</div>
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Histórico de Evolução</div>
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Ações, Sorteios e Premiações</div>
+          <div class="check-item"><span class="check-icon" aria-hidden="true">✓</span> Aulas Gravadas e Conteúdos Exclusivos</div>
+        </div>
+
+        <div class="price-container">
+          <div class="old-price">R$ <span class="strike">129,90</span></div>
+          <div class="main-price">
+            <span class="currency">R$</span>
+            <span class="price-digits">49</span>
+            <span class="cents">,90</span>
+          </div>
+        </div>
+
+        <a href="https://checkout.example.com" class="btn-primary btn-full pulse-glow" role="button" target="_blank" rel="noopener">
+          <span>QUERO SER TEAM DANTAS</span>
+          <span aria-hidden="true">🔥</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: FAQ (PERGUNTAS FREQUENTES) -->
+  <section class="section faq-section" id="faq" aria-label="Perguntas Frequentes">
+    <div class="container faq-grid">
+      <div class="faq-content">
+        <span class="section-tag-small">FAQ</span>
+        <h2 class="faq-title">Perguntas Frequentes</h2>
+        <p class="faq-desc">
+          Se sua dúvida não foi respondida aqui na página, entre em contato com nossa equipe. Estamos prontos para te ajudar!
+        </p>
+      </div>
+
+      <div class="faq-accordion" role="region" aria-label="Lista de Perguntas Frequentes">
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+            <span>O que está incluso no Acesso Total da consultoria?</span>
+            <span class="acc-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-content" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1">
+            <p>Está incluso treino 100% personalizado para seu objetivo, plano alimentar estratégico flexível, suporte contínuo via WhatsApp e aplicativo, vídeos explicativos em HD de todos os exercícios e acompanhamento periódico de evolução.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+            <span>Quanto tempo meu treino fica pronto depois da matrícula?</span>
+            <span class="acc-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-content" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2">
+            <p>Após a confirmação do pagamento e o preenchimento da anamnese, seu treino e plano alimentar ficam 100% prontos no seu aplicativo em até 48 horas úteis.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+            <span>A consultoria funciona para quem tem rotina corrida?</span>
+            <span class="acc-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-content" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3">
+            <p>Sim! O plano é montado de acordo com a sua disponibilidade real de tempo (seja 30, 45 ou 60 minutos por dia), garantindo máxima adesão e resultados consistentes.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+            <span>Tenho vergonha de treinar ou insegurança, isso atrapalha?</span>
+            <span class="acc-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-content" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4">
+            <p>De forma alguma! Você terá vídeos explicativos passo a passo de como executar cada movimento de forma correta e um canal direto com nosso time para tirar qualquer dúvida.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+            <span>O que acontece depois que eu finalizo a Black Friday?</span>
+            <span class="acc-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-content" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5">
+            <p>Seu valor com 61% de desconto fica garantido na sua assinatura durante todo o período contratado, sem reajustes imprevistos!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER OFICIAL -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-copy">Copyright © 2026 Team Dantas | Todos os direitos reservados.</p>
+        <p class="footer-disclaimer">
+          As imagens, textos, elementos gráficos, identidade visual e toda a estrutura desta página pertencem ao Team Dantas. Qualquer reutilização, reprodução parcial ou integral, sem autorização expressa, constitui violação de direitos autorais e é proibida.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Team Dantas Logo" class="brand-logo-img footer-logo">
+        </div>
+        <p class="credits">Produzido por: Lucas Amorim | @lamorim.dsg ⚡</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

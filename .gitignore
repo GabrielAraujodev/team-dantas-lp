@@ -1,0 +1,5 @@
+# Ignore temporary processing scripts
+process_bg.py
+process_logo.py
+.DS_Store
+*.log

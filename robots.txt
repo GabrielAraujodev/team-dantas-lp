@@ -1,0 +1,6 @@
+# Team Dantas Official Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://teamdantas.com.br/sitemap.xml
